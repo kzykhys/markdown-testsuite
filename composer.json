@@ -1,0 +1,23 @@
+{
+    "name": "kzykhys/markdown-testsuite",
+    "description": "A markdown test suite",
+    "keywords": ["markdown", "test", "suite"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karl Dubost"
+        },
+        {
+            "name": "Kazuyuki Hayashi",
+            "email": "hayashi@valnur.net"
+        }
+    ],
+    "require": {
+        "symfony/finder": ">=2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "KzykHys\\MarkdownTestSuite\\": "src"
+        }
+    }
+}
